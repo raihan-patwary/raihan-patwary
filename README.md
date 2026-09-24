@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=F5EFE6&height=130&section=header&text=Md%20Raihan%20Patwary&fontSize=40&fontColor=2F3E46&fontAlignY=42&desc=Animal%20Nutrition%20%26%20Machine%20Learning&descSize=18&descAlignY=68" alt="Md Raihan Patwary" />
+# Md Raihan Patwary
+
+**Animal Nutrition &amp; Machine Learning**
 
 <a href="https://mdraihanpatwary-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4C6E91?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/md-raihan-patwary-bau-animal-nutrition"><img src="https://img.shields.io/badge/LinkedIn-4C6E91?style=flat-square" alt="LinkedIn" /></a>
@@ -28,21 +30,18 @@ I started with feed, animals and nutrition trials. Along the way I became convin
 Most of the work happens before the model.
 
 ```mermaid
-flowchart TD
-    A["Raw farm / lab data"] --> B["Inspect and profile"]
-    B --> C["Missing values"]
-    C --> D["Outliers and impossible values"]
-    D --> E["Exploratory Data Analysis"]
-    E --> F["Feature engineering"]
-    F --> G["Group structure: animal, farm, batch"]
-    G --> H["Leakage check"]
-    H --> I["Grouped train and test split"]
-    I --> J["Modelling"]
+flowchart LR
+    A["Raw farm / lab data"] --> B["First look at the data"]
+    B --> C["Cleaning: missing values, outliers"]
+    C --> D["Exploratory Data Analysis"]
+    D --> E["Feature engineering"]
+    E --> F["Leakage check, grouped split"]
+    F --> G["Modelling"]
 
     style A fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
-    style E fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
-    style H fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
-    style J fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
+    style D fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
+    style F fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
+    style G fill:#F5EFE6,stroke:#4C6E91,color:#2F3E46
 ```
 
 ## Research toolkit
@@ -85,3 +84,4 @@ flowchart TD
 A small acknowledgment to the people who made machine learning easier for me to understand.
 
 Josh Starmer (StatQuest) · Andrew Ng · Krish Naik
+
