@@ -17,7 +17,9 @@
 
 Connecting animal science research with machine learning.
 
-I started with feed, animals and nutrition trials. Along the way I became convinced that data driven methods are the future of animal science, and that the field needs more people who can stand on both sides, the farm and the notebook. So I taught myself statistics, Python and machine learning, and I point them at the production problems I already understand.
+I started with feed, animals and nutrition trials. Along the way I became convinced that data driven methods are the future of animal science, and that the field needs more people who can stand on both sides, the farm and the notebook.
+
+Everything on the machine learning side is self taught. The coding, the statistics and the models, I learned all of it on my own, and I point it at the production problems I already understand.
 
 ## Research focus
 
@@ -27,10 +29,10 @@ I started with feed, animals and nutrition trials. Along the way I became convin
 
 ## How I work
 
-Most of the work happens before the model.
+Most of the work happens before the model. Preprocessing decides everything that comes after it, so I work carefully through it. I can take different kinds of farm and laboratory data and prepare each one properly, so that the model is built on something trustworthy.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Raw farm / lab data"] --> B["First look at the data"]
     B --> C["Cleaning: missing values, outliers"]
     C --> D["Exploratory Data Analysis"]
@@ -84,4 +86,3 @@ flowchart LR
 A small acknowledgment to the people who made machine learning easier for me to understand.
 
 Josh Starmer (StatQuest) · Andrew Ng · Krish Naik
-
